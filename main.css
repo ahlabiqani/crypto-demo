@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eae1e1e0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    position: relative;
+   background-color: #000; 
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 27px;
+   border-radius: 12px;
+}
+
+nav{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10px;
+}
+.logo{
+    /* border-bottom: 1px solid #ff0000; */
+    margin-top: 20px;
+    display: flex;
+    /* border-bottom: 1px solid #ff7200; */
+    cursor: pointer;
+}
+.logo:hover{
+    background-color: #333;
+    border-bottom: 1px solid #ff7200;
+}
+.logo h1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.logo span {
+    color: #ff0000;
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    /* background-color: #660bd4; */
+    border-bottom: 1px solid #ff7200;
+    transition: all 0.3s;
+}
+
+.wallet{
+    color: red;
+    
+}
+.login {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-top: 24px;
+    
+}
+
+.login:hover{
+    border-bottom: 1px solid #fff;
+   
+}
+
+.sign{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 24px;
+
+}
+
+.sign:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.herro{
+    width: 1500px;
+    height: 700px;
+    /* background-color: #ff0000; */
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-right: 10px;
+    border-radius: 15px ;
+}
+
+
+
+.herro h1{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 65px;
+    color: #fff;
+}
+.herro p{
+     margin-top: 20px;
+     font-size: 28px;
+     font-weight: 600;
+     margin-left: 65px;
+     color: #fff;
+}
+
+.ahla{
+    margin-left: 65px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.ahla:hover{
+    border-bottom: 1px solid #ff0000;
+}
+/* .herro2 #herro2-img{
+  
+    margin-top: 50%;
+ 
+}
+ */
+
+#herro2-img{
+    display: flex;
+    margin-left: 700px;
+    margin-top: -60px;
+}
+
+.abdi{
+    text-align: center;
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+.product-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(25% - 20px); /* 4 cards per row on large screens */
+    min-width: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    background-color: green;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.read {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s;
+    border: none;
+}
+
+.read:hover{
+    transform: translateY(-10px);
+    background-color: #0fff0f;
+}
+
+.about h2 {
+    font-size: 48px;
+    font-weight: 800;
+    border-bottom: 1px solid #0fff0f;
+    color: red;
+    margin-top: 40px;
+}
+
+.about p {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 19px;
+    transform: translateY(-10px);
+}
+
+.center {
+    background: linear-gradient(to right, #30ae69, #072e85);
+    width: 1160px;
+    height: 330px;
+    width: 100%;
+    
+}
+
+.hp{
+    text-align: left;
+    color: #fff;
+    /* margin-left: -50px; */
+    margin: 35px;
+    padding: 25px;
+}
+.hp h1{
+    margin-top: 30px;
+    
+}
+.hp p{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
